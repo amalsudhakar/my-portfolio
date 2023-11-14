@@ -16,10 +16,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
 	<style>
-		.single-portfolio {
-			display: none;
-			/* Hide all content by default */
-		}
+		
 	</style>
 
 </head>
@@ -41,8 +38,8 @@
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Portfolio</a></li>
-					<!-- <li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li> -->
 					<li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-services">Services</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
 				</ul>
 			</div>
@@ -81,7 +78,8 @@
 				<ul>
 					<li><button id="projectsBtn" class="btn btn-outline-light  btn-sm"
 							onclick="loadProjects(this)">Projects</button></li>
-					<li><button id="mockupBtn" class="btn btn-outline-light  btn-sm" onclick="loadMockup(this)">Mockup</button>
+					<li><button id="mockupBtn" class="btn btn-outline-light  btn-sm"
+							onclick="loadMockup(this)">Mockup</button>
 					</li>
 					<li><button id="graphicBtn" class="btn btn-outline-light btn-sm" onclick="loadGraphic(this)">Graphic
 							Design</button></li>
@@ -269,61 +267,137 @@
 					</p>
 				</div>
 			</div>
-
-
 		</div>
 	</section>
 
 
 
-	<section class="site-section" id="section-resume">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 mb-5">
+	<!-- Skill Part -->
+    <section class="myskills s_common" id="skill">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-5">
 					<div class="section-heading text-center">
-						<h2>My <strong>Resume</strong></h2>
+						<h2>My <strong>Skills</strong></h2>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="resume-item mb-4">
-						<div>&nbsp;</div>
-						<span class="date"><span class="icon-calendar"></span> 2021 - 2023</span>
-						<h3>Master Of Computer Applications</h3>
-						<p>T John College, Bengaluru, Karnataka<br>Affiliated to Bangalore University</p>
-						<div></div>
-					</div>
-
-					<div class="resume-item mb-4">
-						<div>&nbsp;</div>
-						<span class="date"><span class="icon-calendar"></span> 2018 - 2021</span>
-						<h3>Bachelor Of Computer Applications</h3>
-						<p>IHRD College of Applied Science, Adoor, Kerala<br>Affiliated to Kerala University</p>
-						<div></div>
-						<div></div>
-					</div>
-
-
-				</div>
-				<div class="col-md-6">
-					<div class="resume-item mb-4">
-						<div>&nbsp;</div>
-						<h3>MobKart</h3>
-						<p>E-commerce web application built using Django, Bootstrap, and PostgreSQL.</p>
-						<span class="school">Github</span>
-					</div>
-
-					<div class="resume-item mb-4">
-						<div>&nbsp;</div>
-						<h3>Geographical Attendance System</h3>
-						<p>Web application built using Django, HTML, CSS, and SQLite aims to provide a solution for
-							track employee attendance.</p>
-						<span class="school">Github</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
+            </div>
+            <div class="row skills_row">
+                <div class="col-sm-6 skill_left">
+                    <div class="progress_bar fadeIn">
+                        <div class="progress_holder">
+                            <div class="progress_bar_title"> Python </div>
+                            <div class="progress_number"> 85% </div>
+                        </div>
+                        <div class="progress_bar_holder">
+                            <div class="progress_bar_content" style="width: 85%; background:#bac964;" data-score="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress_bar fadeIn">
+                        <div class="progress_holder">
+                            <div class="progress_bar_title"> Django </div>
+                            <div class="progress_number"> 80% </div>
+                        </div>
+                        <div class="progress_bar_holder">
+                            <div class="progress_bar_content" style="width: 80%; background:#bac964;" data-score="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress_bar fadeIn">
+                        <div class="progress_holder">
+                            <div class="progress_bar_title"> HTML5 </div>
+                            <div class="progress_number"> 100% </div>
+                        </div>
+                        <div class="progress_bar_holder">
+                            <div class="progress_bar_content" style="width: 100%; background:#bac964;" data-score="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress_bar fadeIn">
+                        <div class="progress_holder">
+                            <div class="progress_bar_title"> CSS3 </div>
+                            <div class="progress_number"> 90% </div>
+                        </div>
+                        <div class="progress_bar_holder">
+                            <div class="progress_bar_content" style="width: 90%; background:#bac964;" data-score="90"></div>
+                        </div>
+                    </div>
+                    <div class="progress_bar fadeIn">
+                        <div class="progress_holder">
+                            <div class="progress_bar_title"> BOOTSTRAP </div>
+                            <div class="progress_number"> 80% </div>
+                        </div>
+                        <div class="progress_bar_holder">
+                            <div class="progress_bar_content" style="width: 80%; background:#bac964;" data-score="85"></div>
+                        </div>
+                    </div>
+                    <div class="progress_bar fadeIn">
+                        <div class="progress_holder">
+                            <div class="progress_bar_title"> JAVASCRIPT</div>
+                            <div class="progress_number"> 80% </div>
+                        </div>
+                        <div class="progress_bar_holder">
+                            <div class="progress_bar_content" style="width: 80%; background:#bac964;" data-score="85"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 skill_right">
+                    <div class="progress_bar fadeIn srf">
+                        <div class="progress_holder">
+                            <div class="progress_bar_title"> MySQL </div>
+                            <div class="progress_number"> 85% </div>
+                        </div>
+                        <div class="progress_bar_holder">
+                            <div class="progress_bar_content" style="width: 85%; background:#bac964;" data-score="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress_bar fadeIn">
+                        <div class="progress_holder">
+                            <div class="progress_bar_title"> PostgreSQL </div>
+                            <div class="progress_number"> 80% </div>
+                        </div>
+                        <div class="progress_bar_holder">
+                            <div class="progress_bar_content" style="width: 80%; background:#bac964;" data-score="90"></div>
+                        </div>
+                    </div>
+                    <div class="progress_bar fadeIn">
+                        <div class="progress_holder">
+                            <div class="progress_bar_title"> Git </div>
+                            <div class="progress_number"> 85% </div>
+                        </div>
+                        <div class="progress_bar_holder">
+                            <div class="progress_bar_content" style="width: 85%; background:#bac964;" data-score="85"></div>
+                        </div>
+                    </div>
+                    <div class="progress_bar fadeIn">
+                        <div class="progress_holder">
+                            <div class="progress_bar_title"> Adobe Photoshop </div>
+                            <div class="progress_number"> 95% </div>
+                        </div>
+                        <div class="progress_bar_holder">
+                            <div class="progress_bar_content" style="width: 95%; background:#bac964;" data-score="85"></div>
+                        </div>
+                    </div>
+                    <div class="progress_bar fadeIn">
+                        <div class="progress_holder">
+                            <div class="progress_bar_title"> Adobe Premiere Pro </div>
+                            <div class="progress_number"> 85% </div>
+                        </div>
+                        <div class="progress_bar_holder">
+                            <div class="progress_bar_content" style="width: 85%; background:#bac964;" data-score="85"></div>
+                        </div>
+                    </div>
+                    <div class="progress_bar fadeIn">
+                        <div class="progress_holder">
+                            <div class="progress_bar_title"> Adobe Lightroom </div>
+                            <div class="progress_number"> 95% </div>
+                        </div>
+                        <div class="progress_bar_holder">
+                            <div class="progress_bar_content" style="width: 95%; background:#bac964;" data-score="85"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -385,70 +459,6 @@
 	</section>
 
 
-
-
-	<section class="site-section" id="section-blog">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 mb-5">
-					<div class="section-heading text-center">
-						<h2>Blog on <strong>Medium</strong></h2>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-sm-6 col-lg-4 mb-4">
-					<div class="blog-entry">
-						<a href="#"><img src="images/post_1.jpg" alt="Image placeholder" class="img-fluid"></a>
-						<div class="blog-entry-text">
-							<h3><a href="#">Creative Product Designer From Facebook</a></h3>
-							<p class="mb-4">Even the all-powerful Pointing has no control about the blind texts it is an
-								almost unorthographic.</p>
-
-							<div class="meta">
-								<a href="#"><span class="icon-calendar"></span> Aug 7, 2018</a>
-								<a href="#"><span class="icon-bubble"></span> 5 Comments</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-lg-4 mb-4">
-					<div class="blog-entry">
-						<a href="#"><img src="images/post_2.jpg" alt="Image placeholder" class="img-fluid"></a>
-						<div class="blog-entry-text">
-							<h3><a href="#">Creative Product Designer From Facebook</a></h3>
-							<p class="mb-4">Even the all-powerful Pointing has no control about the blind texts it is an
-								almost unorthographic.</p>
-
-							<div class="meta">
-								<a href="#"><span class="icon-calendar"></span> Aug 7, 2018</a>
-								<a href="#"><span class="icon-bubble"></span> 5 Comments</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-lg-4 mb-4">
-					<div class="blog-entry">
-						<a href="#"><img src="images/post_3.jpg" alt="Image placeholder" class="img-fluid"></a>
-						<div class="blog-entry-text">
-							<h3><a href="#">Creative Product Designer From Facebook</a></h3>
-							<p class="mb-4">Even the all-powerful Pointing has no control about the blind texts it is an
-								almost unorthographic.</p>
-
-							<div class="meta">
-								<a href="#"><span class="icon-calendar"></span> Aug 7, 2018</a>
-								<a href="#"><span class="icon-bubble"></span> 5 Comments</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
 
 	<section class="site-section" id="section-contact">
 		<div class="container">
@@ -611,11 +621,12 @@
 			});
 
 			// Set the class of the clicked button to 'btn btn-outline-info'
-			activeBtn.className = 'btn btn-outline-info';
+			activeBtn.className = 'btn btn-outline-success custom-success';
 		}
 	</script>
 </body>
 
 </html>
-    </body>
-    </html>
+</body>
+
+</html>

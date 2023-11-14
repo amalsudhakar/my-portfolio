@@ -634,3 +634,72 @@ a {
   right: 20px;
   display: none;
 }
+
+
+.single-portfolio {
+  display: none;
+  /* Hide all content by default */
+}
+
+.custom-success {
+  color: #bac964;
+  /* Text color */
+  /* Custom background color */
+  border-color: #bac964;
+  /* Border color */
+}
+
+/* === Skills Part === */
+.skills_row{
+margin-top: 20px;
+}
+
+.fadeIn {
+animation-duration: 0.7s;
+animation-fill-mode: forwards;
+animation-name: fadeIn;
+animation-timing-function: ease-in-out;
+}
+
+.progress_bar {
+margin-bottom: 30px;
+position: relative;
+width: 95%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.progress_bar:last-child {
+margin-bottom: 0px;
+}
+
+.progress_holder {
+margin-bottom: 7px
+}
+
+.progress_bar_title {
+display: inline;
+font-size: 18px;
+text-transform: uppercase;
+}
+
+.progress_number {
+color: #a2a1a4;
+font-size: 17px;
+font-weight: 900;
+position: absolute;
+right: 0;
+text-transform: uppercase;
+top: 0;
+}
+
+.progress_bar_holder {
+background: #53573c;
+margin-top: 5px;
+}
+
+.progress_bar_content {
+height: 5px;
+transition: width 1s ease-in-out 0s;
+}
+
