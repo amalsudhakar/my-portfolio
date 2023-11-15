@@ -231,6 +231,17 @@ a {
     font-size: 20px;
     font-weight: 200; }
 
+    .site-service-item .icon {
+      /* ... */
+      transition: background-color 0.3s, transform 0.3s; /* Adding transition for smooth effect */
+    }
+    
+    /* Hover effect for the icon */
+    .site-service-item .icon:hover {
+      background-color: #a1c3c5; /* Change the background color on hover */
+      transform: scale(1.1); /* Scale the icon slightly on hover */
+    }
+
 .site-link {
   position: relative; }
   .site-link i {
@@ -338,7 +349,7 @@ a {
     .single-portfolio .p-inner h4 {
       font-size: 20px; }
     .single-portfolio .p-inner .cat {
-      font-size: 12px;
+      font-size: 15px;
       text-transform: uppercase;
       color: #cccccc; }
 
@@ -704,4 +715,16 @@ margin-top: 5px;
 height: 5px;
 transition: width 1s ease-in-out 0s;
 }
+
+.btn-hover-hire-me{
+transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-hover-hire-me:hover {
+  background-color: #2ecc71; /* Change background color on hover */
+  color: #ffffff; /* Change text color on hover */
+  transform: scale(1.1);
+  /* Add any additional styles for hover effect */
+}
+
 
